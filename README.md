@@ -4,6 +4,9 @@ FlowPass is an educational prototype that demonstrates how a vehicle's simulated
 
 > **Prototype notice:** FlowPass uses synthetic/simulated vehicle coordinates and fictional routes. It is not connected to a real vehicle GNSS receiver and must not be used for real-world toll collection or billing.
 
+🚀 Live Demo
+https://flow-pass-simulation.vercel.app/
+
 ## Highlights
 
 - **Interactive 3D driving:** drive along the highway, use the ramps, and explore the environment.
