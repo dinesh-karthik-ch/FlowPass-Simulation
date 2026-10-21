@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1e30"/>
+      <stop offset="100%" stop-color="#071422"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a4660"/>
+      <stop offset="100%" stop-color="#1a3048"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00d4aa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+
+  <!-- Road surface -->
+  <rect x="24" y="8" width="16" height="48" rx="2" fill="url(#road)"/>
+
+  <!-- Road dashes (centre line) -->
+  <rect x="31" y="12" width="2" height="7" rx="1" fill="#00d4aa" opacity="0.5"/>
+  <rect x="31" y="23" width="2" height="7" rx="1" fill="#00d4aa" opacity="0.5"/>
+  <rect x="31" y="34" width="2" height="7" rx="1" fill="#00d4aa" opacity="0.5"/>
+  <rect x="31" y="45" width="2" height="7" rx="1" fill="#00d4aa" opacity="0.5"/>
+
+  <!-- Gantry beam (horizontal bar) -->
+  <rect x="10" y="26" width="44" height="4" rx="2" fill="#00d4aa"/>
+
+  <!-- Gantry left post -->
+  <rect x="10" y="26" width="3" height="22" rx="1.5" fill="#2a4660"/>
+  <!-- Gantry right post -->
+  <rect x="51" y="26" width="3" height="22" rx="1.5" fill="#2a4660"/>
+
+  <!-- Headlight beam from car (below gantry) -->
+  <rect x="31" y="30" width="2" height="18" rx="1" fill="url(#beam)" opacity="0.6"/>
+
+  <!-- Sensor dot on gantry -->
+  <circle cx="32" cy="28" r="2.5" fill="#060d15"/>
+  <circle cx="32" cy="28" r="1.5" fill="#00d4aa"/>
+  <circle cx="32" cy="28" r="3.5" fill="none" stroke="#00d4aa" stroke-width="0.8" opacity="0.5"/>
+</svg>
